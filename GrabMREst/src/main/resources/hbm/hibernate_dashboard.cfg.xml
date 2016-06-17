@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.datasource">jdbc/__GrabMMySQLPool</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="hibernate.jdbc.batch_size">20</property>
+        
+        <mapping class="com.grabm.entity.AreaGroup" />
+        <mapping class="com.grabm.entity.Company" />
+        <mapping class="com.grabm.entity.VehicleBrand" />
+        <mapping class="com.grabm.entity.VehicleModel" />
+        <mapping class="com.grabm.entity.FuelType" />
+        <mapping class="com.grabm.entity.VehicleType" />
+        <mapping class="com.grabm.entity.Vehicle" />
+        <mapping class="com.grabm.entity.Driver" />
+        <mapping class="com.grabm.entity.VehicleDriver" />
+        <mapping class="com.grabm.entity.MobilePickupSummery"/>
+        <mapping class="com.grabm.entity.EndUser" />
+        <mapping class="com.grabm.entity.Administrator" />
+        <mapping class="com.grabm.entity.Profile" />
+        <mapping class="com.grabm.entity.WebPage" />
+        <mapping class="com.grabm.entity.Pickup" />
+        <mapping class="com.grabm.entity.Dropoff" />
+        <mapping class="com.grabm.entity.PickupSchedule" />
+        <mapping class="com.grabm.entity.PickupReSchedule" />
+        <mapping class="com.grabm.entity.DropoffReSchedule" />
+        <mapping class="com.grabm.entity.DropoffSchedule" />
+        <mapping class="com.grabm.entity.LatestTracking" />
+        <mapping class="com.grabm.entity.TrackingHistory" />
+    </session-factory>
+</hibernate-configuration>
