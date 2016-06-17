@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/driverDetails"
+        android:orderInCategory="100"
+        android:title="@string/action_driver_details"
+        android:icon="@mipmap/ic_local_taxi"
+        app:showAsAction="always" />
+</menu>

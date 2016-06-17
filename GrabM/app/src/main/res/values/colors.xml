@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0489b1</color>
+    <color name="colorPrimaryDark">#077089</color>
+    <color name="colorAccent">#11b3ce</color>
+    <color name="colorNavHeader">#20222f</color>
+    <color name="colorNavBar">#070918</color>
+    <color name="colorNavMenuIcons">#3c4156</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="color_twitter">#55ACEF</color>
+    <color name="googleBackColor">#F4F4F4</color>
+    <color name="google_text_color">#969696</color>
+    <color name="black">#000000</color>
+    <color name="transparent_black">#90000000</color>
+    <color name="devider_color">#f6f6f6</color>
+    <color name="button_icons_text">#757575</color>
+
+    <color name="dusk_yellow">#F7CB48</color>
+    <color name="error_color">#e10808</color>
+    <color name="card_color">#099D56</color>
+
+    <color name="scheduled_color">#9b5057</color>
+    <color name="dispatche_color">#285953</color>
+    <color name="arrived_color">#3a556a</color>
+</resources>

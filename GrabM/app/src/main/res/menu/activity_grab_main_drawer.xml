@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/miscellaneous"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/rideHistory"
+            android:icon="@mipmap/ic_history"
+            android:title="@string/action_history" />
+    </group>
+    <item
+        android:id="@+id/settings"
+        android:icon="@mipmap/ic_settings"
+        android:title="@string/action_settings" />
+    <item
+        android:id="@+id/logOut"
+        android:icon="@mipmap/ic_exit_to_app"
+        android:title="@string/action_signout" />
+</menu>
