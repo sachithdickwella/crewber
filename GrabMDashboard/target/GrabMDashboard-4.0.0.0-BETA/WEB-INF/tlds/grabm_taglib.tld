@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.1" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd">
+    <tlib-version>1.0</tlib-version>
+    <short-name>g</short-name>
+    <uri>http://grabm.earcs.com/core</uri>
+    <tag>
+        <name>session-validate</name>
+        <description>Check wether session attribute is null</description>
+        <tag-class>com.earcs.grabm.tags.SessionValidate</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>sessionAttribute</name>
+            <description>Session attribute</description>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>url</name>
+            <description>Redirect URL</description>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+    <tag>
+        <name>session-validate-inverse</name>
+        <description>Check wether session attribute is null</description>
+        <tag-class>com.earcs.grabm.tags.SessionValidateInverse</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>sessionAttribute</name>
+            <description>Session attribute</description>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>url</name>
+            <description>Redirect URL</description>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+    <tag>
+        <name>http-error</name>
+        <description>Throw http error on invalid url</description>
+        <tag-class>com.earcs.grabm.tags.HTTPError</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>code</name>
+            <description>HTTP error code</description>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>request</name>
+            <description>HTTP request</description>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>response</name>
+            <description>HTTP resonse</description>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+    <tag>
+        <name>execute-stat</name>
+        <description>Read if stat parameter exists on the request scope and execute the boy content accordingly.</description>
+        <tag-class>com.earcs.grabm.tags.ExecuteStatParam</tag-class>
+        <body-content>JSP</body-content>
+    </tag>
+</taglib>
